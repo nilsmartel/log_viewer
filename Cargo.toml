@@ -1,0 +1,11 @@
+[package]
+name = "log_viewer"
+version = "0.1.0"
+authors = ["sombrastudios <nils.martel@graphmasters.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+json = "0.11.15"                          # JSON implementation in Rust
+colored = "1.8.0"            # The most simple way to add colors in your terminal
