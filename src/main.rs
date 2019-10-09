@@ -19,6 +19,8 @@ fn main() {
                 write!(out, "{}\n", line.yellow());
             } else if level == "danger" {
                 write!(out, "{}\n", line.red());
+            } else if level == "debug" {
+                write!(out, "{}\n", line.bright_black());
             } else {
                 write!(out, "{}\n", line);
             }
@@ -26,6 +28,6 @@ fn main() {
             continue;
         }
 
-        write!(out, "{}\n", line.bright_black());
+        write!(out, "{}\n", line.on_bright_black());
     }
 }
