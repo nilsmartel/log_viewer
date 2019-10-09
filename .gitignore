@@ -1,3 +1,3 @@
 /target
 **/*.rs.bk
-./sample_log.txt
+*.txt
